@@ -28,11 +28,22 @@ This project explores and models chocolate sales data using machine learning tec
    - Hyperparameter tuning (tree depth)
    - Evaluation using MAE, RMSE, and R² metrics
 
-4. **Results**
+4.1 ** Modeling Results**
    - Best performance: **Random Forest Regressor** with depth = 5  
    - **MAE** ≈ 3256  
    - **RMSE** ≈ 4071  
    - **R²** ≈ -0.02
+
+4.2 ** Modeling Results**
+   - Best performance: **Random Forest Regressor** with depth = 5  
+   - **MAE** ≈ 3256  
+   - **RMSE** ≈ 4071  
+   - **R²** ≈ -0.02
+
+Actual VS Predicted Revenue ('amount')
+
+This scatter plot shows how close the predicted values are to the actual sales amounts.
+![Actual vs Predicted](images/actual_vs_predicted.png)
 
 5. **Insights**
    - Top products: *Smooth Silky Salty*, *50% Dark Bites*
