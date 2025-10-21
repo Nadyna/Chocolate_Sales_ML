@@ -1,5 +1,4 @@
 # Chocolate Sales Prediction with Machine Learning
-Chocolate sales prediction with Random Forest and Gradient Boosting
 
 This project explores and models chocolate sales data using machine learning techniques. It includes a full data science workflow from data exploration and preprocessing to predictive modeling and evaluation.
 
