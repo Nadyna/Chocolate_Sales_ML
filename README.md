@@ -44,7 +44,7 @@ Best performance: **Random Forest Regressor** with depth = 5
    - **RMSE** ≈ 4071  
    - **R²** ≈ -0.02
 
-2 **Actual vs Predicted Revenue**
+2. **Actual vs Predicted Revenue**
 This scatter plot shows how close the predicted values are to the actual sales amounts.
 The model tends to predict values near the average — indicating underfitting.
 ![Actual vs Predicted](images/actual_vs_predicted.png)
