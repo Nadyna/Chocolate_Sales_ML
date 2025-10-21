@@ -49,8 +49,7 @@ This project explores chocolate sales data and applies machine learning models t
    This scatter plot shows how close the predicted values are to the actual sales amounts.
    The model tends to predict values near the average — indicating underfitting.
 
-   ![Actual vs Predicted](images/actual_vs_predicted.png)
-
+   <img src="images/actual_vs_predicted.png" alt="Sales by Product" width="700"/>
 
 5. **Insights**  
 
