@@ -22,12 +22,13 @@ This project explores chocolate sales data and applies machine learning models t
    - Distribution analysis of the target variable (`amount`)
    - Business insights on top products and performers
    
-   <img src="images/sales_by_product.png" alt="Sales by Product" width="600"/>
+   ![Distribution of Sales Amount](images/amount_distribution.png)  
 
    *Distribution of the target variable `amount` — most values fall under 8000 with a long right tail*
 
 
-   ![Sales by Product](images/sales_by_product.png)  
+   <img src="images/sales_by_product.png" alt="Sales by Product" width="600"/>
+
    *Total revenue by product — Smooth Silky Salty and 50% Dark Bites are top sellers*
 
 
