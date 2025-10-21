@@ -23,6 +23,7 @@ This project explores chocolate sales data and applies machine learning models t
    - Business insights on top products and performers
    
    <img src="images/sales_by_product.png" alt="Sales by Product" width="600"/>
+
    *Distribution of the target variable `amount` — most values fall under 8000 with a long right tail*
 
 
@@ -30,7 +31,7 @@ This project explores chocolate sales data and applies machine learning models t
    *Total revenue by product — Smooth Silky Salty and 50% Dark Bites are top sellers*
 
 
-3. **Modeling**
+4. **Modeling**
    - Feature selection and data splitting
    - Training Random Forest and Gradient Boosting models
    - Hyperparameter tuning (tree depth)
