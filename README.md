@@ -27,6 +27,7 @@ This project explores chocolate sales data and applies machine learning models t
 
 
    <img src="images/sales_by_product.png" alt="Sales by Product" width="650"/>
+
    *Total revenue by product — Smooth Silky Salty and 50% Dark Bites are top sellers*
 
 
