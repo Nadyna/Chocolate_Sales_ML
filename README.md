@@ -2,8 +2,6 @@
 
 This project explores chocolate sales data and applies machine learning models to predict sales revenue (`amount`) based on features like product type, number of boxes shipped, salesperson, and country.
 
----
-
 ## Dataset
 
 - **Source**: [Kaggle - Chocolate Sales Dataset](https://www.kaggle.com/datasets/atharvasoundankar/chocolate-sales)
