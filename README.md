@@ -28,13 +28,13 @@ This project explores and models chocolate sales data using machine learning tec
    - Hyperparameter tuning (tree depth)
    - Evaluation using MAE, RMSE, and R² metrics
 
-4.1 ** Modeling Results**
+4.1 **Modeling Results**
    - Best performance: **Random Forest Regressor** with depth = 5  
    - **MAE** ≈ 3256  
    - **RMSE** ≈ 4071  
    - **R²** ≈ -0.02
 
-4.2 ** Modeling Results**
+4.2 **Modeling Results**
    - Best performance: **Random Forest Regressor** with depth = 5  
    - **MAE** ≈ 3256  
    - **RMSE** ≈ 4071  
