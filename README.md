@@ -26,7 +26,7 @@ This project explores chocolate sales data and applies machine learning models t
 
    *Distribution of the target variable `amount` — most values fall under 8000 with a long right tail*
 
-   <img src="images/sales_by_product.png" alt="Sales by Product" width="600"/>
+   <img src="images/sales_by_product.png" alt="Sales by Product" width="700"/>
 
    *Total revenue by product — Smooth Silky Salty and 50% Dark Bites are top sellers*
 
@@ -49,7 +49,7 @@ This project explores chocolate sales data and applies machine learning models t
    This scatter plot shows how close the predicted values are to the actual sales amounts.
    The model tends to predict values near the average — indicating underfitting.
 
-   <img src="images/actual_vs_predicted.png" alt="Sales by Product" width="700"/>
+   <img src="images/actual_vs_predicted.png" alt="Actual vs Predicted Revenue" width="600"/>
 
 5. **Insights**  
 
