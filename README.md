@@ -31,33 +31,36 @@ This project explores chocolate sales data and applies machine learning models t
    *Total revenue by product — Smooth Silky Salty and 50% Dark Bites are top sellers*
 
 
-4. **Modeling**
+3. **Modeling**
    - Feature selection and data splitting
    - Training Random Forest and Gradient Boosting models
    - Hyperparameter tuning (tree depth)
    - Evaluation using MAE, RMSE, and R² metrics
 
-## Modeling Results
+4. **Modeling Results**  
 
-1. **Metrics Summary**
-Best performance: **Random Forest Regressor** with depth = 5  
+   4.1 **Metrics Summary** 
+   Best performance: **Random Forest Regressor** with depth = 5  
    - **MAE** ≈ 3256  
    - **RMSE** ≈ 4071  
    - **R²** ≈ -0.02
 
-2. **Actual vs Predicted Revenue**
-This scatter plot shows how close the predicted values are to the actual sales amounts.
-The model tends to predict values near the average — indicating underfitting.
-![Actual vs Predicted](images/actual_vs_predicted.png)
+   4.2 **Actual vs Predicted Revenue** 
+   This scatter plot shows how close the predicted values are to the actual sales amounts.
+   The model tends to predict values near the average — indicating underfitting.
 
-## Insights
+   ![Actual vs Predicted](images/actual_vs_predicted.png)
+
+
+5. **Insights**  
 
    - Top products: *Smooth Silky Salty*, *50% Dark Bites*
    - Best-performing countries: *Australia*, *UK*, *India*, *USA*
    - Most successful salespersons: *Chess Bonnell*, *Oby Sorrel*
    - Sales mostly occurred on weekdays, with *Thursday* and *Tuesday* being strongest
 
-## Key Takeaway
+
+6. **Key Takeaway**  
 
 - The models struggled to accurately predict `amount`, often regressing to the mean.
 - Feature importance suggests that `boxes shipped` is the strongest predictor.
@@ -72,7 +75,7 @@ The model tends to predict values near the average — indicating underfitting.
    - `sales_by_product.png`  
    - `actual_vs_predicted.png`
 
-## Technologies Used
+## Technologies
 
 - Python (Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn)
 - Jupyter Notebook
