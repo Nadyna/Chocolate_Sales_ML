@@ -18,12 +18,11 @@ This project explores chocolate sales data and applies machine learning models t
    - One-hot encoding of categorical features
 
 2. **Exploratory Data Analysis (EDA)**
+      ![Distribution of Sales Amount](images/amount_distribution.png)  
+   *Distribution of the target variable `amount` — most values fall under 8000 with a long right tail*
    - Visual analysis by product, country, month, day of week, and salesperson
    - Distribution analysis of the target variable (`amount`)
    - Business insights on top products and performers
-   
-   ![Distribution of Sales Amount](images/amount_distribution.png)  
-   *Distribution of the target variable `amount` — most values fall under 8000 with a long right tail*
 
 
    <img src="images/sales_by_product.png" alt="Sales by Product" width="700"/>
