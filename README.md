@@ -1,6 +1,8 @@
 # Chocolate Sales Prediction with Machine Learning
 
-This project explores and models chocolate sales data using machine learning techniques. It includes a full data science workflow from data exploration and preprocessing to predictive modeling and evaluation.
+This project explores chocolate sales data and applies machine learning models to predict sales revenue (`amount`) based on features like product type, number of boxes shipped, salesperson, and country.
+
+---
 
 ## Dataset
 
@@ -21,6 +23,13 @@ This project explores and models chocolate sales data using machine learning tec
    - Visual analysis by product, country, month, day of week, and salesperson
    - Distribution analysis of the target variable (`amount`)
    - Business insights on top products and performers
+   
+   ![Distribution of Sales Amount](images/amount_distribution.png)  
+   *Distribution of the target variable `amount` — most values fall under 8000 with a long right tail*
+
+   ![Sales by Product](images/sales_by_product.png)  
+   *Total revenue by product — Smooth Silky Salty and 50% Dark Bites are top sellers*
+
 
 3. **Modeling**
    - Feature selection and data splitting
@@ -28,30 +37,27 @@ This project explores and models chocolate sales data using machine learning tec
    - Hyperparameter tuning (tree depth)
    - Evaluation using MAE, RMSE, and R² metrics
 
-4.1 **Modeling Results**
-   - Best performance: **Random Forest Regressor** with depth = 5  
+## Modeling Results
+
+1. **Metrics Summary**
+Best performance: **Random Forest Regressor** with depth = 5  
    - **MAE** ≈ 3256  
    - **RMSE** ≈ 4071  
    - **R²** ≈ -0.02
 
-4.2 **Modeling Results**
-   - Best performance: **Random Forest Regressor** with depth = 5  
-   - **MAE** ≈ 3256  
-   - **RMSE** ≈ 4071  
-   - **R²** ≈ -0.02
-
-Actual VS Predicted Revenue ('amount')
-
+2 **Actual vs Predicted Revenue**
 This scatter plot shows how close the predicted values are to the actual sales amounts.
+The model tends to predict values near the average — indicating underfitting.
 ![Actual vs Predicted](images/actual_vs_predicted.png)
 
-5. **Insights**
+## Insights
+
    - Top products: *Smooth Silky Salty*, *50% Dark Bites*
    - Best-performing countries: *Australia*, *UK*, *India*, *USA*
    - Most successful salespersons: *Chess Bonnell*, *Oby Sorrel*
    - Sales mostly occurred on weekdays, with *Thursday* and *Tuesday* being strongest
 
-## Key Takeaways
+## Key Takeaway
 
 - The models struggled to accurately predict `amount`, often regressing to the mean.
 - Feature importance suggests that `boxes shipped` is the strongest predictor.
@@ -59,8 +65,12 @@ This scatter plot shows how close the predicted values are to the actual sales a
 
 ## Files
 
-- `notebook.ipynb` — Main analysis and modeling notebook
-- `README.md` — Project description and structure
+- `chocolate_sales_ml.ipynb` — Main analysis and modeling notebook  
+- `README.md` — Project description and summary of results  
+- `images/` — Folder containing all visualizations used in the analysis and README  
+   - `amount_distribution.png`  
+   - `sales_by_product.png`  
+   - `actual_vs_predicted.png`
 
 ## Technologies Used
 
