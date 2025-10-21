@@ -36,7 +36,7 @@ This project explores and models chocolate sales data using machine learning tec
 
 5. **Insights**
    - Top products: *Smooth Silky Salty*, *50% Dark Bites*
-   - Best-performing countries: *Australia*, *UK*, *India*
+   - Best-performing countries: *Australia*, *UK*, *India*, *USA*
    - Most successful salespersons: *Chess Bonnell*, *Oby Sorrel*
    - Sales mostly occurred on weekdays, with *Thursday* and *Tuesday* being strongest
 
