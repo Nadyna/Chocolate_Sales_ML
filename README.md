@@ -8,7 +8,7 @@ This project explores chocolate sales data and applies machine learning models t
 - **Records**: 1094
 - **Features**: Sales Person, Country, Product, Date, Amount (target), Boxes Shipped
 
-## Project Structure
+## Methodology
 
 1. **Data Loading and Preprocessing**
    - Importing libraries
